@@ -81,16 +81,17 @@ async function main(args) {
     const job = jobs[i];
     const result = await checkUrl(job.url);
 
+    const title = job.job_title || job.title || "(no title)";
     if (result.ok) {
-      console.log(`✅ ${job.job_title.substring(0, 50)}`);
+      console.log(`✅ ${title.substring(0, 50)}`);
       active++;
     } else if (result.status === 404 || result.status === 0) {
-      console.log(`❌ EXPIRED (${result.status}) - ${job.job_title.substring(0, 40)}`);
+      console.log(`❌ EXPIRED (${result.status}) - ${title.substring(0, 40)}`);
       console.log(`   URL: ${job.url}`);
       expiredJobs.push(job);
       expired++;
     } else {
-      console.log(`⚠️ STATUS ${result.status} - ${job.job_title.substring(0, 40)}`);
+      console.log(`⚠️ STATUS ${result.status} - ${title.substring(0, 40)}`);
       errors++;
     }
 
