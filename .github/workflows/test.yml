@@ -112,3 +112,4 @@ jobs:
         run: npm test
         env:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
