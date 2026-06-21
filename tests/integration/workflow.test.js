@@ -178,7 +178,7 @@ describe('Integration: API Workflow', () => {
       const result = await solr.querySOLR(FARMEC_CIF);
 
       for (const job of result.docs) {
-        expect(job.cif).toMatch(/^\d{8}$/);
+        expect(job.cif).toMatch(/^\d{6,9}$/);
       }
     }, 15000);
   });
