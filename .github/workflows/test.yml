@@ -24,6 +24,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Sync with remote
+        if: github.event_name != 'pull_request'
+        run: git pull origin main --rebase -X theirs
+
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
@@ -91,6 +95,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+
+      - name: Sync with remote
+        if: github.event_name != 'pull_request'
+        run: git pull origin main --rebase -X theirs
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

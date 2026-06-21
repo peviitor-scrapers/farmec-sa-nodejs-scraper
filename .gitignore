@@ -1,7 +1,7 @@
 node_modules/
 .env
 .env.local
-company.json
+/company.json
 jobs.json
 jobs_existing.json
 tmp/

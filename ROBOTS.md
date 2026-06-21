@@ -15,6 +15,18 @@ job_seeker_ro_spider
 3. Nu scraper-uim date personale sau informații protejate.
 4. Identificăm întotdeauna scraperul prin User-Agent-ul de mai sus.
 
+## Robots.txt Analysis
+
+### `www.farmec.ro/robots.txt`
+
+The careers page is not blocked. Disallowed paths are product/catalog related:
+- `/index.php/`, `/catalog/*`, `/checkout/`, `/customer/`, `/wishlist/`
+- Careers path `/compania/cariere/` is allowed — no scraping restrictions.
+
+### `www.ejobs.ro/robots.txt`
+
+eJobs is a third-party job board. We scrape their Nuxt.js __NUXT_DATA__ payload.
+
 ## Domenii accesate
 
 | Domeniu | Scop |

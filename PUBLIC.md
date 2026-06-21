@@ -1,6 +1,6 @@
 # PUBLIC.md — Repository Must Be PUBLIC
 
-All scrapers derived from this EPAM template **MUST** be **PUBLIC** repositories.
+All scrapers in the peviitor.ro ecosystem **MUST** be **PUBLIC** repositories.
 
 ## Why?
 
