@@ -14,19 +14,7 @@
 
 ## Current Job Listings (11)
 
-_Generated: 2026-08-13T13:33:12.921Z_
-
-### Beauty Adviser Gerovital, Cluj-Napoca
-
-- **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
-
-- **URL:** [https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1/](https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
+_Generated: 2026-08-13T13:35:01.987Z_
 
 ### Beauty Adviser Gerovital ParkLake, București
 
@@ -61,6 +49,18 @@ _Generated: 2026-08-13T13:33:12.921Z_
 ### Manipulant marfă, București
 
 - **URL:** [https://www.farmec.ro/compania/joburi/manipulant-marfa-bucuresti-2-3-2-2-2-2-2-2-3/](https://www.farmec.ro/compania/joburi/manipulant-marfa-bucuresti-2-3-2-2-2-2-2-2-3/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Beauty Adviser Gerovital, Cluj-Napoca
+
+- **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
+
+- **URL:** [https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1/](https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
