@@ -14,7 +14,7 @@
 
 ## Current Job Listings (11)
 
-_Generated: 2026-08-13T13:27:10.082Z_
+_Generated: 2026-08-13T13:30:49.256Z_
 
 ### Beauty Adviser Gerovital, Cluj-Napoca
 
