@@ -316,7 +316,7 @@ async function main() {
 
     // Step 2: Validate company data via ANAF
     console.log("=== Step 2: Validate company via ANAF ===");
-    const { status, company, cif, address } = await validateAndGetCompany();
+    const { status, company, cif } = await validateAndGetCompany();
     COMPANY_NAME = company;
     const localCif = cif;
 
@@ -333,9 +333,10 @@ async function main() {
         company,
         brand: companyConfig.brand,
         status: "activ",
-        location: address ? [address] : companyConfig.location,
+        location: companyConfig.location,
         website: companyConfig.website,
         career: companyConfig.career,
+        scraperFile: companyConfig.scraperFile,
         lastScraped: new Date().toISOString().split('T')[0]
       });
     } catch (err) {
@@ -383,7 +384,7 @@ async function main() {
       company: transformedPayload.company,
       brand: companyConfig.brand,
       status: "activ",
-      location: address ? [address] : companyConfig.location,
+      location: companyConfig.location,
       website: companyConfig.website,
       career: companyConfig.career,
       lastScraped: new Date().toISOString().split('T')[0]

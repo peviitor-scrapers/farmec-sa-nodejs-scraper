@@ -1,5 +1,5 @@
 {
-  "validatedAt": "2026-08-13T13:27:09.093Z",
+  "validatedAt": "2026-08-13T13:33:11.538Z",
   "source": "ANAF",
   "brand": "FARMEC",
   "anaf": {
@@ -57,23 +57,29 @@
     "onrcStatusLabel": "Funcțiune"
   },
   "peviitor": {
-    "id": "199150",
-    "company": "FARMEC SA",
-    "brand": "FARMEC",
+    "id": "1697454",
+    "company": "FARMEC SRL",
+    "brand": "FARMEC SA",
     "status": "activ",
     "location": [
-      "Str.  HENRI BARBUSSE, 16, Municipiul Cluj-Napoca, Cluj"
+      "Municipiul Arad"
     ],
     "website": [
       "https://www.farmec.ro"
     ],
-    "career": [
-      "https://www.farmec.ro/compania/cariere/"
+    "lastScraped": "2026-08-07",
+    "scraperFile": "inviitor-ro-nodejs-scraper",
+    "address": [
+      "Municipiul Arad, Arad"
     ],
-    "lastScraped": "2026-07-26",
-    "scraperFile": "https://github.com/peviitor-scrapers/farmec-sa-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml",
-    "_version_": 1871765455664840700,
-    "_root_": "199150"
+    "anafData": [
+      "{\"cif\":1697454,\"cui\":1697454,\"denumire\":\"FARMEC SRL\",\"company\":\"FARMEC SRL\",\"brand\":\"FARMEC SA\",\"statusImpozit\":\"activ\",\"adresa\":\"Municipiul Arad, Arad\",\"localitate\":\"Municipiul Arad\",\"website\":\"\"}"
+    ],
+    "existingJobsCount": [
+      0
+    ],
+    "_version_": 1872861842860146700,
+    "_root_": "1697454"
   },
   "summary": {
     "company": "FARMEC SA",

@@ -7,14 +7,14 @@
 | CIF | 199150 |
 | Brand | FARMEC |
 | Status | activ |
-| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. HENRI BARBUSSE, NR.16 |
+| Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
 | Last Scraped | 2026-08-13 |
 
 ## Current Job Listings (11)
 
-_Generated: 2026-08-13T13:30:49.256Z_
+_Generated: 2026-08-13T13:33:12.921Z_
 
 ### Beauty Adviser Gerovital, Cluj-Napoca
 
