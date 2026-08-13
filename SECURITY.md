@@ -1,18 +1,41 @@
-# SECURITY.md — Politica de securitate
+# Security Policy
 
-## Credentiale
+## Supported Versions
 
-1. **NU** hardcodăm credentiale (`SOLR_AUTH`, `SOLR_USER`, `SOLR_PASS`) în niciun fișier din repository.
-2. Toate credentialele se citesc din variabile de mediu (`process.env.SOLR_AUTH`).
-3. Fișierul `.env.local` (care conține `SOLR_AUTH (format: user:password)`) este listat în `.gitignore` și **NU** se comite niciodată.
-4. În GitHub Actions, credentialele se transmit prin `secrets.SOLR_AUTH`.
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.x     | :white_check_mark: |
 
-## Raportarea vulnerabilităților
+## Reporting a Vulnerability
 
-Dacă descoperi o vulnerabilitate, te rugăm să:
-1. Creezi un Issue privat (dacă e posibil)
-2. Sau să contactezi administratorul platformei peviitor.ro
+If you discover a security vulnerability, please report it by:
 
-## Istoric
+1. **Do NOT** create a public GitHub issue
+2. Email the maintainer directly
+3. Include a detailed description of the vulnerability
+4. Provide steps to reproduce
 
-- Toate repository-urile au trecut printr-un `git filter-branch` pentru a elimina orice credentiale hardcodate din istoric.
+We will respond within 48 hours and work with you to address the issue.
+
+## Security Best Practices
+
+When using this project:
+
+- Never commit `.env` files or credentials to the repository
+- Store secrets in GitHub Secrets for CI/CD
+- Rotate credentials regularly
+- Review Solr access permissions
+
+## Dependencies
+
+This project uses `npm audit` to check for vulnerable dependencies. Run:
+
+```bash
+npm audit
+```
+
+Keep dependencies up to date with:
+
+```bash
+npm update
+```

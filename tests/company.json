@@ -1,0 +1,89 @@
+{
+  "validatedAt": "2026-07-21T12:00:00.000Z",
+  "source": "ANAF",
+  "brand": "FARMEC",
+  "anaf": {
+    "cui": 199150,
+    "name": "FARMEC SA",
+    "address": "Sat Arpaşu de Sus, Comuna Arpaşu de Jos, Sibiu",
+    "registrationNumber": "J32/2018/2024",
+    "phone": "",
+    "fax": "",
+    "postalCode": "",
+    "caenCode": "6201",
+    "iban": "",
+    "registrationState": "INREGISTRAT",
+    "registrationDate": "2024-01-01",
+    "fiscalAuthority": "AJFP Sibiu",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT AUTOHTON",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ CU RĂSPUNDERE LIMITATĂ",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "2024-01-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": false,
+    "headquartersAddress": {
+      "street": "",
+      "number": "",
+      "locality": "Sat Arpaşu de Sus, Comuna Arpaşu de Jos",
+      "county": "Sibiu",
+      "country": "România",
+      "postalCode": ""
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [],
+    "authorizedCaenCodes": [
+      "6201",
+      "6202",
+      "6209",
+      "6311",
+      "6312"
+    ],
+    "onrcStatus": 1048,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": {
+    "id": "199150",
+    "company": "FARMEC SA",
+    "brand": "FARMEC",
+    "group": "TSS",
+    "status": "activ",
+    "location": ["Sibiu"],
+    "lastScraped": "2026-07-21",
+    "scraperFile": "job-seeker-ro-spider.yml",
+    "_version_": 0,
+    "_root_": "199150"
+  },
+  "summary": {
+    "company": "FARMEC SA",
+    "cif": "199150",
+    "active": true,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "address": "Sat Arpaşu de Sus, Comuna Arpaşu de Jos, Sibiu",
+    "registrationNumber": "J32/2018/2024",
+    "caenCode": "6201",
+    "vatRegistered": true,
+    "eFacturaRegistered": false
+  }
+}

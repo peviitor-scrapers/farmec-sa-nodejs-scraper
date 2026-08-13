@@ -1,153 +1,86 @@
-import fetch from "node-fetch";
+/**
+ * FARMEC Job URL Validator
+ *
+ * Multiple validation modes:
+ *   --head      HEAD requests only (fast, default)
+ *   --content   GET + body scan (catches HTML soft-404s)
+ *   --browser   Playwright headless Chromium (catches JS-rendered 404s)
+ *
+ * Action flags:
+ *   --dry-run   Show invalid jobs but do not delete
+ *   --delete    Delete invalid jobs from SOLR after listing
+ *
+ * Called by .github/workflows/automation-testing.yml on the scheduled run.
+ */
+import companyConfig from "../scraper/config/company.js";
+import { querySOLR, deleteJobByUrl } from "../scraper/api.js";
+import { validateByHead, validateByContent, validateByBrowser } from "../scraper/job-validator.js";
 
-const SOLR_URL = "https://solr.peviitor.ro/solr/job/update";
-const SOLR_AUTH = process.env.SOLR_AUTH || "your-solr-credentials";
-const COMPANY_NAME = "FARMEC SA";
+const CIF = companyConfig.id;
+const COMPANY = companyConfig.company;
 
-async function getJobs() {
-  const jobs = [];
-  let page = 1;
-
-  while (true) {
-    const res = await fetch(
-      `https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY_NAME)}&page=${page}`,
-      {
-        headers: {
-          origin: "https://peviitor.ro",
-          referer: "https://peviitor.ro/",
-        },
-      }
-    );
-    const data = await res.json();
-    if (data.response.docs.length === 0) break;
-
-    jobs.push(...data.response.docs);
-    page++;
+function getTimeout() {
+  const idx = process.argv.indexOf("--timeout");
+  if (idx !== -1 && idx + 1 < process.argv.length) {
+    return parseInt(process.argv[idx + 1], 10);
   }
-  return jobs;
+  return undefined;
 }
 
-async function checkUrl(url) {
-  try {
-    const res = await fetch(url, {
-      method: "HEAD",
-      redirect: "follow",
-    });
-    return { status: res.status, ok: res.status === 200 };
-  } catch (e) {
-    return { status: 0, ok: false, error: e.message };
+function getValidator() {
+  if (process.argv.includes("--browser")) return validateByBrowser;
+  if (process.argv.includes("--content")) return validateByContent;
+  return validateByHead;
+}
+
+async function main() {
+  const dryRun = process.argv.includes("--dry-run");
+  const doDelete = process.argv.includes("--delete");
+  const timeout = getTimeout();
+  const validate = getValidator();
+  const mode = process.argv.includes("--browser") ? "browser" : process.argv.includes("--content") ? "content" : "head";
+
+  console.log(`=== Validating ${COMPANY} (CIF: ${CIF}) | mode: ${mode}${timeout ? ` | timeout: ${timeout}ms` : ""} ===\n`);
+
+  const result = await querySOLR(CIF);
+  console.log(`Total jobs in SOLR: ${result.numFound}`);
+
+  if (result.numFound === 0) {
+    console.log("No jobs to validate.");
+    return;
+  }
+
+  const invalid = [];
+  for (const job of result.docs) {
+    const opts = timeout ? { timeout } : {};
+    const check = await validate(job.url, opts);
+    console.log(`[${check.httpStatus}] ${check.status === "active" ? "OK" : check.status} - ${job.title}`);
+    if (check.status !== "active") invalid.push(job);
+  }
+
+  if (invalid.length === 0) {
+    console.log("\n✅ All jobs valid");
+    return;
+  }
+
+  console.log(`\n⚠️ ${invalid.length} invalid jobs found`);
+  for (const job of invalid) {
+    console.log(`  ${job.title} | ${job.url}`);
+  }
+
+  if (dryRun) {
+    console.log("(dry run — no deletions performed)");
+    return;
+  }
+  if (doDelete) {
+    for (const job of invalid) {
+      await deleteJobByUrl(job.url);
+      console.log(`Deleted: ${job.title}`);
+    }
   }
 }
 
-async function deleteJobFromSolr(url) {
-  const AUTH = process.env.SOLR_AUTH || "your-solr-credentials";
-  const params = new URLSearchParams({ commit: "true" });
-
-  const deleteQuery = JSON.stringify({
-    delete: { query: `url:"${url}"` }
-  });
-
-  const res = await fetch(`${SOLR_URL}?${params}`, {
-    method: "POST",
-    headers: {
-      Authorization: "Basic " + Buffer.from(AUTH).toString("base64"),
-      "Content-Type": "application/json",
-      "User-Agent": "job_seeker_ro_spider"
-    },
-    body: deleteQuery
-  });
-
-  console.log(`Delete response status: ${res.status}`);
-  return res.ok;
-}
-
-async function main(args) {
-  const dryRun = args.includes("--dry-run") || !args.includes("--delete");
-
-  console.log("=".repeat(50));
-  console.log("Farmec Job Validator");
-  console.log("=".repeat(50));
-  console.log(`Mode: ${dryRun ? "DRY RUN (no changes)" : "LIVE (will delete expired)"}\n`);
-
-  const jobs = await getJobs();
-  console.log(`Total jobs found in API: ${jobs.length}\n`);
-
-  let active = 0;
-  let expired = 0;
-  let errors = 0;
-  const expiredJobs = [];
-
-  for (let i = 0; i < jobs.length; i++) {
-    const job = jobs[i];
-    const result = await checkUrl(job.url);
-
-    const title = job.job_title || job.title || "(no title)";
-    if (result.ok) {
-      console.log(`✅ ${title.substring(0, 50)}`);
-      active++;
-    } else if (result.status === 404 || result.status === 0) {
-      console.log(`❌ EXPIRED (${result.status}) - ${title.substring(0, 40)}`);
-      console.log(`   URL: ${job.url}`);
-      expiredJobs.push(job);
-      expired++;
-    } else {
-      console.log(`⚠️ STATUS ${result.status} - ${title.substring(0, 40)}`);
-      errors++;
-    }
-
-    if ((i + 1) % 20 === 0) {
-      console.log(`\n--- Progress: ${i + 1}/${jobs.length} ---\n`);
-    }
-
-    await new Promise((r) => setTimeout(r, 300));
-  }
-
-  console.log("\n" + "=".repeat(50));
-  console.log("RESULTS");
-  console.log("=".repeat(50));
-  console.log(`Active (200): ${active}`);
-  console.log(`Expired (404): ${expired}`);
-  console.log(`Other errors: ${errors}`);
-  console.log(`Total: ${jobs.length}`);
-
-  if (expired > 0) {
-    console.log("\n" + "=".repeat(50));
-    console.log("EXPIRED JOBS TO DELETE:");
-    console.log("=".repeat(50));
-
-    for (const job of expiredJobs) {
-      console.log(`- ${job.job_title}`);
-      console.log(`  ${job.url}`);
-    }
-
-    if (!dryRun) {
-      console.log("\n" + "=".repeat(50));
-      console.log("DELETING EXPIRED JOBS FROM SOLR...");
-      console.log("=".repeat(50));
-
-      let deleted = 0;
-      for (const job of expiredJobs) {
-        const ok = await deleteJobFromSolr(job.url);
-        if (ok) {
-          console.log(`🗑️ Deleted: ${job.job_title}`);
-          deleted++;
-        } else {
-          console.log(`❌ Failed to delete: ${job.job_title}`);
-        }
-        await new Promise((r) => setTimeout(r, 500));
-      }
-
-      console.log(`\n✅ Deleted ${deleted}/${expiredJobs.length} expired jobs`);
-    } else {
-      console.log(`\n⚠️ Dry run - no jobs deleted. Run with --delete to actually remove.`);
-    }
-  }
-
-  process.exit(0);
-}
-
-const args = process.argv.slice(2);
-main(args).catch((e) => {
-  console.error("Error:", e.message);
+main().catch(err => {
+  console.error("Fatal:", err.message);
   process.exit(1);
 });

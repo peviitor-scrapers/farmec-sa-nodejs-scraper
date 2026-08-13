@@ -1,26 +1,42 @@
-# CONTRIBUTING.md — Cum să contribui
+# Contributing
 
-## Proces
+Thank you for your interest in contributing!
 
-1. Creează un Issue pentru orice modificare.
-2. Fă modificările pe un branch nou.
-3. Asigură-te că testele trec: `npm test`.
-4. Creează un Pull Request către `main`.
-5. După merge, închide Issue-ul.
+## 🌱 This Repo Is a Derived Scraper
 
-## Reguli de cod
+This scraper is derived from the [EPAM template](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper) and targets **FARMEC SA** (CIF 199150).
 
-- Folosește `jest.unstable_mockModule` pentru mock-uri, nu `jest.mock`.
-- Toate căile temporare (`company.json`, `jobs.json`, etc.) trebuie să fie în `tmp/`.
-- Credentialele se citesc din `process.env.SOLR_AUTH`, nu se hardcodează.
-- Mesajele de commit trebuie să includă numărul Issue-ului: `"Descriere (#123)"`.
+**All company-specific identity lives in `config/company.json`.**
 
-## Testare
-
-Rulează testele înainte de orice PR:
+## Development Setup
 
 ```bash
+# Clone the repo
+git clone https://github.com/peviitor-scrapers/farmec-sa-nodejs-scraper.git
+
+# Install dependencies
+npm install
+
+# Run tests
 npm test
 ```
 
-Testele unitare trebuie să treacă toate. Testele de integrare/e2e pot necesita credentiale SOLR reale.
+## Code Style
+
+- Use ES6+ modules (`type: module` in `package.json`)
+- Add tests for new features in the matching `tests/<level>/` folder
+- Ensure all tests pass before submitting PR
+- Update relevant `.md` files when adding new files
+- Reference a GitHub issue in every commit (see [ISSUES.md](ISSUES.md))
+
+## Reporting Issues
+
+Open a [GitHub Issue](https://github.com/peviitor-scrapers/farmec-sa-nodejs-scraper/issues) with:
+- Clear description of the problem
+- Steps to reproduce
+- Expected vs actual behavior
+- Environment details (Node version, OS)
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the MIT License.

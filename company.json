@@ -1,0 +1,85 @@
+{
+  "validatedAt": "2026-08-13T13:26:17.594Z",
+  "source": "ANAF",
+  "brand": "FARMEC",
+  "anaf": {
+    "cui": 199150,
+    "name": "FARMEC SA",
+    "address": "JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. HENRI BARBUSSE, NR.16",
+    "registrationNumber": "J1991000014122",
+    "phone": "0264432543",
+    "fax": "0264432543",
+    "postalCode": "400616",
+    "caenCode": "2042",
+    "iban": "",
+    "registrationState": "INREGISTRAT din data 27.11.1992",
+    "registrationDate": "1992-11-27",
+    "fiscalAuthority": "Direcţia Generală de Administrare a Marilor Contribuabili",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT AUTOHTON",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ PE ACŢIUNI",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "1993-07-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": true,
+    "headquartersAddress": {
+      "street": "Str. Henri Barbusse",
+      "number": "16",
+      "locality": "Mun. Cluj-Napoca",
+      "county": "CLUJ",
+      "country": "",
+      "postalCode": "400616"
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [],
+    "authorizedCaenCodes": [],
+    "onrcStatus": 0,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": {
+    "id": "199150",
+    "company": "FARMEC SA",
+    "brand": "FARMEC",
+    "status": "activ",
+    "location": [
+      "Str.  HENRI BARBUSSE, 16, Municipiul Cluj-Napoca, Cluj"
+    ],
+    "website": [
+      "https://www.farmec.ro"
+    ],
+    "career": [
+      "https://www.farmec.ro/compania/cariere/"
+    ],
+    "lastScraped": "2026-07-26",
+    "scraperFile": "https://raw.githubusercontent.com/sebiboga/farmec-sa-nodejs-scraper/main/.github/workflows/scrape.yml",
+    "_version_": 1871765455664840700,
+    "_root_": "199150"
+  },
+  "summary": {
+    "company": "FARMEC SA",
+    "cif": "199150",
+    "active": true,
+    "inactiveSince": null,
+    "address": "JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. HENRI BARBUSSE, NR.16"
+  }
+}

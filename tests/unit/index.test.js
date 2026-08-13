@@ -1,5 +1,5 @@
 import { jest } from "@jest/globals";
-import { extractJobs, extractEJobs, mapToJobModel } from "../../index.js";
+import { extractJobs, extractEJobs, mapToJobModel } from "../../scraper/index.js";
 
 const COMPANY_CIF = "199150";
 const COMPANY_NAME = "FARMEC SA";
