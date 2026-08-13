@@ -71,7 +71,7 @@
       "https://www.farmec.ro/compania/cariere/"
     ],
     "lastScraped": "2026-07-26",
-    "scraperFile": "https://raw.githubusercontent.com/sebiboga/farmec-sa-nodejs-scraper/main/.github/workflows/scrape.yml",
+    "scraperFile": "https://github.com/peviitor-scrapers/farmec-sa-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml",
     "_version_": 1871765455664840700,
     "_root_": "199150"
   },
