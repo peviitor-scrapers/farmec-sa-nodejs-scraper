@@ -10,11 +10,17 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-08-14 |
+| Last Scraped | 2026-08-15 |
 
 ## Current Job Listings (11)
 
-_Generated: 2026-08-14T07:09:34.748Z_
+_Generated: 2026-08-15T06:20:49.394Z_
+
+### Beauty Adviser Gerovital, Cluj-Napoca
+
+- **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
@@ -55,12 +61,6 @@ _Generated: 2026-08-14T07:09:34.748Z_
 ### Manipulant marfă, București
 
 - **URL:** [https://www.farmec.ro/compania/joburi/manipulant-marfa-bucuresti-2-3-2-2-2-2-2-2-3/](https://www.farmec.ro/compania/joburi/manipulant-marfa-bucuresti-2-3-2-2-2-2-2-2-3/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Beauty Adviser Gerovital, Cluj-Napoca
-
-- **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-cluj-2-3-2-2-2-2-2-2/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
