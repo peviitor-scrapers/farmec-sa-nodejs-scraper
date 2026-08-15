@@ -93,16 +93,30 @@ describe('company.js', () => {
       expect(result.anafData.name).toBe('FARMEC SA');
     });
 
-    it('should throw when ANAF returns no data', async () => {
+    it('should fall back to company config when ANAF returns no data', async () => {
       mockFetch.mockResolvedValueOnce(anafCompanyResponse(null));
 
-      await expect(company.getCompanyData()).rejects.toThrow('No data from ANAF');
+      const result = await company.getCompanyData();
+
+      expect(result).toEqual({
+        company: 'FARMEC SA',
+        cif: '199150',
+        active: true,
+        anafData: null
+      });
     });
 
-    it('should throw when ANAF returns no company name', async () => {
+    it('should fall back to company config when ANAF returns no company name', async () => {
       mockFetch.mockResolvedValueOnce(anafCompanyResponse({ cui: 199150, name: null }));
 
-      await expect(company.getCompanyData()).rejects.toThrow('ANAF returned no company name');
+      const result = await company.getCompanyData();
+
+      expect(result).toEqual({
+        company: 'FARMEC SA',
+        cif: '199150',
+        active: true,
+        anafData: null
+      });
     });
   });
 
