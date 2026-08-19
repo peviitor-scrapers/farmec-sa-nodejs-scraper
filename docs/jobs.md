@@ -10,17 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-08-18 |
+| Last Scraped | 2026-08-19 |
 
-## Current Job Listings (9)
+## Current Job Listings (6)
 
-_Generated: 2026-08-18T06:26:19.421Z_
-
-### Manipulant marfă, București
-
-- **URL:** [https://www.farmec.ro/compania/joburi/manipulant-marfa-bucuresti-2-3-2-2-2-2-2-2-3/](https://www.farmec.ro/compania/joburi/manipulant-marfa-bucuresti-2-3-2-2-2-2-2-2-3/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
+_Generated: 2026-08-19T06:26:32.063Z_
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
@@ -31,12 +25,6 @@ _Generated: 2026-08-18T06:26:19.421Z_
 ### Beauty Adviser Gerovital ParkLake, București
 
 - **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-bucuresti-2-3-2-2-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-bucuresti-2-3-2-2-2-2-2-2-2-2/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Beauty Adviser, Sibiu
-
-- **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-sibiu-2-3-2-2-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-sibiu-2-3-2-2-2-2-2-2-2-2/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
@@ -52,15 +40,9 @@ _Generated: 2026-08-18T06:26:19.421Z_
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
-### Manipulant marfuri
+### Regional Key Account Executive
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/manipulant-marfuri/1978904](https://www.ejobs.ro/user/locuri-de-munca/manipulant-marfuri/1978904)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Agent de vânzări
-
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/agent-de-vanzari/1977141](https://www.ejobs.ro/user/locuri-de-munca/agent-de-vanzari/1977141)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/regional-key-account-executive/1979946](https://www.ejobs.ro/user/locuri-de-munca/regional-key-account-executive/1979946)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
