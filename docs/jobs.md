@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-08-23 |
+| Last Scraped | 2026-08-24 |
 
-## Current Job Listings (7)
+## Current Job Listings (6)
 
-_Generated: 2026-08-23T06:24:23.817Z_
+_Generated: 2026-08-24T06:37:12.142Z_
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
@@ -49,11 +49,5 @@ _Generated: 2026-08-23T06:24:23.817Z_
 ### Regional Key Account Executive
 
 - **URL:** [https://www.ejobs.ro/user/locuri-de-munca/regional-key-account-executive/1979946](https://www.ejobs.ro/user/locuri-de-munca/regional-key-account-executive/1979946)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Beauty Adviser
-
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/beauty-adviser/1974482](https://www.ejobs.ro/user/locuri-de-munca/beauty-adviser/1974482)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
