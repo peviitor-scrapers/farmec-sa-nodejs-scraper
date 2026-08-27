@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-08-26 |
+| Last Scraped | 2026-08-27 |
 
 ## Current Job Listings (5)
 
-_Generated: 2026-08-26T06:31:15.002Z_
+_Generated: 2026-08-27T17:05:44.106Z_
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
@@ -22,9 +22,9 @@ _Generated: 2026-08-26T06:31:15.002Z_
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
-### Beauty Adviser Gerovital ParkLake, București
+### Agent Vânzări Farma
 
-- **URL:** [https://www.farmec.ro/compania/joburi/beauty-adviser-bucuresti-2-3-2-2-2-2-2-2-2-2/](https://www.farmec.ro/compania/joburi/beauty-adviser-bucuresti-2-3-2-2-2-2-2-2-2-2/)
+- **URL:** [https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1-2/](https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1-2/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
