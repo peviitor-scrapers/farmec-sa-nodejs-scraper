@@ -10,21 +10,21 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-09-02 |
+| Last Scraped | 2026-09-03 |
 
 ## Current Job Listings (5)
 
-_Generated: 2026-09-02T10:11:41.360Z_
-
-### Agent Vânzări Farma
-
-- **URL:** [https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1-2/](https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1-2/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
+_Generated: 2026-09-03T10:23:18.253Z_
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
 - **URL:** [https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1/](https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Agent Vânzări Farma
+
+- **URL:** [https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1-2/](https://www.farmec.ro/compania/joburi/reprezentant-vanzari-bucuresti-1-2/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
