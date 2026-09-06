@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-09-05 |
+| Last Scraped | 2026-09-06 |
 
-## Current Job Listings (5)
+## Current Job Listings (4)
 
-_Generated: 2026-09-05T09:39:21.068Z_
+_Generated: 2026-09-06T09:54:35.949Z_
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
@@ -31,12 +31,6 @@ _Generated: 2026-09-05T09:39:21.068Z_
 ### Reprezentant vânzări -Produse Profesionale - Saloane Beauty
 
 - **URL:** [https://www.ejobs.ro/user/locuri-de-munca/reprezentant-vanzari-produse-profesionale-saloane-beauty/1981666](https://www.ejobs.ro/user/locuri-de-munca/reprezentant-vanzari-produse-profesionale-saloane-beauty/1981666)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Reprezentant vanzari Farma
-
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/reprezentant-vanzari-farma/1980285](https://www.ejobs.ro/user/locuri-de-munca/reprezentant-vanzari-farma/1980285)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
