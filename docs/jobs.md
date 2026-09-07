@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-09-06 |
+| Last Scraped | 2026-09-07 |
 
 ## Current Job Listings (4)
 
-_Generated: 2026-09-06T09:54:35.949Z_
+_Generated: 2026-09-07T11:02:36.181Z_
 
 ### Reprezentant Vânzări B2B – Produse Profesionale pentru Saloane Beauty, Cluj
 
