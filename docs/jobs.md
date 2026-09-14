@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-09-13 |
+| Last Scraped | 2026-09-14 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-09-13T10:48:14.850Z_
+_Generated: 2026-09-14T11:15:10.218Z_
 
 ### Agent Vânzări Farma &\#8211; zona Maramureș, Satu-Mare
 
