@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-09-26 |
+| Last Scraped | 2026-09-27 |
 
 ## Current Job Listings (1)
 
-_Generated: 2026-09-26T10:30:54.827Z_
+_Generated: 2026-09-27T11:02:02.028Z_
 
 ### Reprezentant vânzări -Produse Profesionale - Saloane Beauty
 
