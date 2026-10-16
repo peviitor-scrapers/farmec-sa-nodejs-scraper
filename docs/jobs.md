@@ -10,20 +10,26 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-05 |
+| Last Scraped | 2026-10-16 |
 
-## Current Job Listings (2)
+## Current Job Listings (3)
 
-_Generated: 2026-10-05T13:02:02.806Z_
+_Generated: 2026-10-16T13:58:11.818Z_
 
-### Agent de vânzări
+### Agent vânzări Cluj-Napoca
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/agent-de-vanzari/99247261](https://www.ejobs.ro/user/locuri-de-munca/agent-de-vanzari/99247261)
+- **URL:** [https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/](https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
-### Reprezentant vânzări -Produse Profesionale - Saloane Beauty
+### Primitor-distribuitor, Cluj-Napoca
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/reprezentant-vanzari-produse-profesionale-saloane-beauty/1988199](https://www.ejobs.ro/user/locuri-de-munca/reprezentant-vanzari-produse-profesionale-saloane-beauty/1988199)
+- **URL:** [https://www.farmec.ro/compania/cariere/primitor-distribuitor-cluj-napoca/](https://www.farmec.ro/compania/cariere/primitor-distribuitor-cluj-napoca/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Agent Vânzări Farma
+
+- **URL:** [https://www.farmec.ro/compania/cariere/agent-vanzari-farma/](https://www.farmec.ro/compania/cariere/agent-vanzari-farma/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
