@@ -51,23 +51,32 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
  * @returns {Array} - Array of jobs { title, slug, url }
  */
 function extractJobs(html) {
-  const jobRegex = /<a href="https:\/\/www\.farmec\.ro\/compania\/joburi\/([^"]+)\/">([\s\S]*?)<\/a><\/div><div class="listbox-next"/g;
   const jobs = [];
-  let match;
+  const seen = new Set();
+  const push = (slug, rawTitle, base) => {
+    const title = rawTitle.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    if (!slug || !title || seen.has(`${base}/${slug}`)) return;
+    seen.add(`${base}/${slug}`);
+    jobs.push({ title, slug, url: `https://www.farmec.ro/compania/${base}/${slug}/` });
+  };
 
-  while ((match = jobRegex.exec(html)) !== null) {
-    const slug = match[1];
-    const title = match[2].replace(/<[^>]+>/g, "").trim();
-    jobs.push({
-      title,
-      slug,
-      url: `https://www.farmec.ro/compania/joburi/${slug}/`
-    });
+  // Current markup: <h3 class="job-card__title"><a href=".../compania/cariere/<slug>/">Title</a></h3>
+  const cardRegex = /<h3 class="job-card__title"><a href="https:\/\/www\.farmec\.ro\/compania\/cariere\/([^"\/]+)\/">([\s\S]*?)<\/a>/g;
+  let match;
+  while ((match = cardRegex.exec(html)) !== null) {
+    push(match[1], match[2], "cariere");
+  }
+
+  // Legacy markup (kept as a fallback): <div class="listbox"><a href=".../compania/joburi/<slug>/">Title</a></div>
+  if (jobs.length === 0) {
+    const legacyRegex = /<a href="https:\/\/www\.farmec\.ro\/compania\/joburi\/([^"]+)\/">([\s\S]*?)<\/a><\/div><div class="listbox-next"/g;
+    while ((match = legacyRegex.exec(html)) !== null) {
+      push(match[1], match[2], "joburi");
+    }
   }
 
   return jobs;
 }
-
 /**
  * Fetches the Farmec careers page.
  * @returns {Promise<string>} - Page HTML

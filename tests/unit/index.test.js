@@ -148,3 +148,24 @@ describe("mapToJobModel", () => {
     expect(results[0].url).not.toBe(results[1].url);
   });
 });
+
+describe("extractJobs - current farmec.ro job-card markup", () => {
+  const card = (slug, title) =>
+    `<article class="job-card" data-locatie=""><div class="job-card__body"><h3 class="job-card__title"><a href="https://www.farmec.ro/compania/cariere/${slug}/">${title}</a></h3></div><footer class="job-card__footer"><a class="job-card__btn" href="https://www.farmec.ro/compania/cariere/${slug}/">Vezi detalii</a></footer></article>`;
+
+  it("extracts jobs from job-card articles (title link only, no duplicate from the button)", () => {
+    const html = card("agent-vanzari-cluj-napoca", "Agent vânzări Cluj-Napoca") + card("agent-vanzari-farma", "Agent Vânzări Farma");
+    const jobs = extractJobs(html);
+    expect(jobs).toHaveLength(2);
+    expect(jobs[0]).toEqual({
+      title: "Agent vânzări Cluj-Napoca",
+      slug: "agent-vanzari-cluj-napoca",
+      url: "https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/"
+    });
+    expect(jobs[1].url).toBe("https://www.farmec.ro/compania/cariere/agent-vanzari-farma/");
+  });
+
+  it("returns an empty array when the page has no job cards", () => {
+    expect(extractJobs("<html><body>Niciun post</body></html>")).toEqual([]);
+  });
+});

@@ -95,7 +95,7 @@ describe('E2E: Full Scraping Pipeline', () => {
       for (const job of jobs) {
         expect(job).toHaveProperty('title');
         expect(job).toHaveProperty('slug');
-        expect(job.url).toMatch(/^https:\/\/www\.farmec\.ro\/compania\/joburi\//);
+        expect(job.url).toMatch(/^https:\/\/www\.farmec\.ro\/compania\/(cariere|joburi)\//);
       }
     }, 30000);
 
