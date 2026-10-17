@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-16 |
+| Last Scraped | 2026-10-17 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-10-16T13:58:11.818Z_
+_Generated: 2026-10-17T09:54:02.096Z_
 
 ### Agent vânzări Cluj-Napoca
 
