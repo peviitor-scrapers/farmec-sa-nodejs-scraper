@@ -10,11 +10,17 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-19 |
+| Last Scraped | 2026-10-20 |
 
-## Current Job Listings (3)
+## Current Job Listings (4)
 
-_Generated: 2026-10-19T11:34:40.483Z_
+_Generated: 2026-10-20T10:39:23.690Z_
+
+### Gestionar depozit &\#8211; Iași
+
+- **URL:** [https://www.farmec.ro/compania/cariere/gestionar-depozit-iasi/](https://www.farmec.ro/compania/cariere/gestionar-depozit-iasi/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Agent vânzări Cluj-Napoca
 
