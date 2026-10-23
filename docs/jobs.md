@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-22 |
+| Last Scraped | 2026-10-23 |
 
-## Current Job Listings (4)
+## Current Job Listings (3)
 
-_Generated: 2026-10-22T10:51:23.297Z_
+_Generated: 2026-10-23T10:43:01.426Z_
 
 ### Gestionar depozit &\#8211; Iași
 
@@ -31,11 +31,5 @@ _Generated: 2026-10-22T10:51:23.297Z_
 ### Primitor-distribuitor, Cluj-Napoca
 
 - **URL:** [https://www.farmec.ro/compania/cariere/primitor-distribuitor-cluj-napoca/](https://www.farmec.ro/compania/cariere/primitor-distribuitor-cluj-napoca/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Agent Vânzări Farma
-
-- **URL:** [https://www.farmec.ro/compania/cariere/agent-vanzari-farma/](https://www.farmec.ro/compania/cariere/agent-vanzari-farma/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
