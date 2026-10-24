@@ -10,11 +10,17 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-23 |
+| Last Scraped | 2026-10-24 |
 
-## Current Job Listings (3)
+## Current Job Listings (4)
 
-_Generated: 2026-10-23T10:43:01.426Z_
+_Generated: 2026-10-24T09:59:15.957Z_
+
+### Operator chimist -Cluj-Napoca
+
+- **URL:** [https://www.farmec.ro/compania/cariere/operator-chimist-cluj-napoca/](https://www.farmec.ro/compania/cariere/operator-chimist-cluj-napoca/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Gestionar depozit &\#8211; Iași
 
