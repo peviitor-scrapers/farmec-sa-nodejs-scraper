@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-26 |
+| Last Scraped | 2026-10-27 |
 
 ## Current Job Listings (4)
 
-_Generated: 2026-10-26T11:52:26.950Z_
+_Generated: 2026-10-27T11:16:14.670Z_
 
 ### Operator chimist -Cluj-Napoca
 
