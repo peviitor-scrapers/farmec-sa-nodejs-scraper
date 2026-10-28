@@ -10,11 +10,23 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-27 |
+| Last Scraped | 2026-10-28 |
 
-## Current Job Listings (4)
+## Current Job Listings (5)
 
-_Generated: 2026-10-27T11:16:14.670Z_
+_Generated: 2026-10-28T11:50:39.494Z_
+
+### Manipulant marfa-București
+
+- **URL:** [https://www.farmec.ro/compania/cariere/manipulant-marfa-bucuresti/](https://www.farmec.ro/compania/cariere/manipulant-marfa-bucuresti/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Agent de livrare – București
+
+- **URL:** [https://www.farmec.ro/compania/cariere/agent-de-livrare-bucuresti/](https://www.farmec.ro/compania/cariere/agent-de-livrare-bucuresti/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Operator chimist -Cluj-Napoca
 
@@ -31,11 +43,5 @@ _Generated: 2026-10-27T11:16:14.670Z_
 ### Agent vânzări Cluj-Napoca
 
 - **URL:** [https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/](https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Primitor-distribuitor, Cluj-Napoca
-
-- **URL:** [https://www.farmec.ro/compania/cariere/primitor-distribuitor-cluj-napoca/](https://www.farmec.ro/compania/cariere/primitor-distribuitor-cluj-napoca/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
