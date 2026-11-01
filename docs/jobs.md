@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-10-31 |
+| Last Scraped | 2026-11-01 |
 
 ## Current Job Listings (5)
 
-_Generated: 2026-10-31T11:25:38.673Z_
+_Generated: 2026-11-01T12:19:02.343Z_
 
 ### Manipulant marfa-București
 
