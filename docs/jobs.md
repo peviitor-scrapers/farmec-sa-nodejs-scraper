@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-11-04 |
+| Last Scraped | 2026-11-05 |
 
 ## Current Job Listings (6)
 
-_Generated: 2026-11-04T13:28:48.348Z_
+_Generated: 2026-11-05T13:43:13.423Z_
 
 ### Beauty Adviser – Magazin Gerovital Timișoara
 
