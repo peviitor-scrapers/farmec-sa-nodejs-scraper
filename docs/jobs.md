@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-11-17 |
+| Last Scraped | 2026-11-18 |
 
 ## Current Job Listings (4)
 
-_Generated: 2026-11-17T15:10:39.398Z_
+_Generated: 2026-11-18T14:48:39.184Z_
 
 ### Agent de livrare – București
 
