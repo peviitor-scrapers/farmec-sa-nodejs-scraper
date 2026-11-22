@@ -10,21 +10,15 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-11-21 |
+| Last Scraped | 2026-11-22 |
 
-## Current Job Listings (4)
+## Current Job Listings (3)
 
-_Generated: 2026-11-21T13:54:03.112Z_
+_Generated: 2026-11-22T13:47:09.627Z_
 
 ### Agent de livrare – București
 
 - **URL:** [https://www.farmec.ro/compania/cariere/agent-de-livrare-bucuresti/](https://www.farmec.ro/compania/cariere/agent-de-livrare-bucuresti/)
-- **Location:** Cluj-Napoca
-- **Status:** scraped
-
-### Operator chimist -Cluj-Napoca
-
-- **URL:** [https://www.farmec.ro/compania/cariere/operator-chimist-cluj-napoca/](https://www.farmec.ro/compania/cariere/operator-chimist-cluj-napoca/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
