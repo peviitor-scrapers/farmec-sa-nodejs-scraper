@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-11-22 |
+| Last Scraped | 2026-11-23 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-11-22T13:47:09.627Z_
+_Generated: 2026-11-23T16:51:06.272Z_
 
 ### Agent de livrare – București
 
@@ -28,8 +28,8 @@ _Generated: 2026-11-22T13:47:09.627Z_
 - **Location:** Cluj-Napoca
 - **Status:** scraped
 
-### Agent vânzări Cluj-Napoca
+### Agent vânzări Pitești
 
-- **URL:** [https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/](https://www.farmec.ro/compania/cariere/agent-vanzari-cluj-napoca/)
+- **URL:** [https://www.farmec.ro/compania/cariere/agent-vanzari-pitesti/](https://www.farmec.ro/compania/cariere/agent-vanzari-pitesti/)
 - **Location:** Cluj-Napoca
 - **Status:** scraped
