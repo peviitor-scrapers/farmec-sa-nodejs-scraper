@@ -10,11 +10,23 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-11-24 |
+| Last Scraped | 2026-11-25 |
 
-## Current Job Listings (3)
+## Current Job Listings (5)
 
-_Generated: 2026-11-24T16:43:20.007Z_
+_Generated: 2026-11-25T16:28:01.087Z_
+
+### Inginer Mecanic
+
+- **URL:** [https://www.farmec.ro/compania/cariere/inginer-mecanic/](https://www.farmec.ro/compania/cariere/inginer-mecanic/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
+
+### Manipulant marfa-București
+
+- **URL:** [https://www.farmec.ro/compania/cariere/manipulant-marfa-bucuresti/](https://www.farmec.ro/compania/cariere/manipulant-marfa-bucuresti/)
+- **Location:** Cluj-Napoca
+- **Status:** scraped
 
 ### Agent de livrare – București
 
