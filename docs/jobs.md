@@ -10,11 +10,11 @@
 | Location | Cluj-Napoca |
 | Website | [https://www.farmec.ro](https://www.farmec.ro) |
 | Careers | [https://www.farmec.ro/compania/cariere/](https://www.farmec.ro/compania/cariere/) |
-| Last Scraped | 2026-11-26 |
+| Last Scraped | 2026-11-27 |
 
 ## Current Job Listings (5)
 
-_Generated: 2026-11-26T16:01:19.363Z_
+_Generated: 2026-11-27T15:50:26.291Z_
 
 ### Inginer Mecanic
 
